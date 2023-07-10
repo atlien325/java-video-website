@@ -1,0 +1,20 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: #f99404;
+}
+
+#nav-list-item {
+  padding-top: 6px;
+}
+
+#nav-search {
+  padding-top: 4px;
+}
+
+.fa-heart {
+  color: #ff1e1e;
+}

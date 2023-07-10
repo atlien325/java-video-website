@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <div class="fw-bold fs-4 text-white">FPoly Tutor</div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-hamburger-menu-mobile"
+          aria-controls="nav-hamburger-menu-mobile"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-hamburger-menu-mobile">
+          <ul
+            id="nav-list-item"
+            class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fa-solid fa-heart fw-bold fs-5"></i>
+                <span class="text-dark">Yêu thích</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-user fw-bolder text-white"></i>
+                <span class="text-dark fw-bold">Tài khoản</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Đổi mật khẩu</a></li>
+                <li><a class="dropdown-item" href="#">Cài đặt tài khoản</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form id="nav-search" class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Body -->
+    <div class="container-fluid">
+      <div class="row my-3">
+        <div class="col-lg-8">
+          <div class="card">
+            <a href="#">
+              <img
+                src="/assets/images/samsung-uk-PV9QQFDB5W8-unsplash.jpg"
+                class="card-img-top w-100"
+              />
+            </a>
+            <div class="card-header">
+              <span class="fs-5 fw-bold">Video</span>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Description</p>
+            </div>
+            <div class="card-footer text-end">
+              <a href="#" role="button" class="btn btn-primary"
+                ><i class="fa-regular fa-thumbs-up"></i> Like</a
+              >
+              <a href="#" role="button" class="btn btn-danger"
+                ><i class="fa-solid fa-share"></i> Share</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <h5 class="card-title fs-6">Title</h5>
+                <p class="fs-6">Author</p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </body>
+</html>
